@@ -1,0 +1,113 @@
+%!TEX program = xelatex
+\documentclass[10pt, compress]{beamer}
+\usetheme[titleprogressbar]{m}
+
+\usepackage{booktabs}
+\usepackage[scale=2]{ccicons}
+\usepackage{minted}
+
+\usepackage[czech]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{times}
+\usepackage{graphics}
+\usepackage{hyperref}
+
+\usepgfplotslibrary{dateplot}
+
+\usemintedstyle{trac}
+
+\title{Git a GitHub}
+\subtitle{Přátelské setkání}
+\author{Petr Mohelník}
+\institute{}
+
+\begin{document}
+
+
+\plain{\normalfont Git a GitHub \linebreak přátelské setkání \linebreak \linebreak Petr Mohelník \linebreak 13. 7. 2017}
+
+\plain{\normalfont Proč verzovat?}
+
+\plain{\normalfont Git a jeho historie}
+
+\plain{\normalfont GitHub a alternativy}
+
+\begin{frame}[fragile]
+\frametitle{Instalace systému Git}
+	\begin{itemize}
+	\item Linux
+      \begin{itemize}
+      \item instalací balíku \emph{git} z preferovaného správce balíků
+      \end{itemize}
+    \item Windows
+    	\begin{itemize}
+    	\item \url{https://git-scm.com/downloads}
+    	\end{itemize}
+	\end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{Příkazy 1}
+	\begin{itemize}
+		\item git init
+        \item git add
+        \item git status
+        \item git diff
+        \item git commit
+        \item git rm
+        \item git log
+        \item git reset
+        \item \dots
+
+	\end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{Příkazy 2}
+	\begin{itemize}
+    	\item git branch
+        \item git checkout
+        \item git clone
+        \item git remote
+        \item git fetch
+        \item git push
+        \item git pull
+        \item \dots
+
+	\end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{Další možnosti}
+	\begin{itemize}
+        \item Submoduly
+        \item Webhooky
+        \item Fork
+        \item Pull request
+        \item GitHub Pages
+        \item \dots
+
+	\end{itemize}
+\end{frame}
+
+
+
+\plain{\normalfont Bezpečnost a další problémy}
+
+
+
+
+
+\begin{frame}[fragile]
+\frametitle{Zdroje informací}
+  \begin{itemize}
+    \item \url{https://knihy.nic.cz/files/nic/edice/scott_chacon_pro_git.pdf}
+    \item \url{https://git-scm.com/book/en/v1/Getting-Started}
+    \item \url{https://www.udacity.com/course/--ud775}
+  \end{itemize}
+\end{frame}
+
+
+\plain{\normalfont Děkuji za pozornost}
+
+\end{document}
